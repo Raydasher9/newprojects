@@ -1,0 +1,37 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+background-color: #333;
+}
+
+h1 {
+color: white;
+}
+
+#circle {
+position: relative;
+background-color: blue;
+margin: auto;
+width: 400px;
+border-radius: 400px;
+height: 200px;
+width: 200px;
+animation: circle;
+animation-direction: normal;
+animation-direction: alternate;
+animation-duration: 4s;
+animation-iteration-count: infinite;
+animation-fill-mode: normal, reverse;
+}
+
+
+@keyframes circle {
+    0% {top: 100px ;}
+    25% {top: 200px ;}
+    50% {top: 300px;}	
+    75% {top 400px;}
+    100% {top: 500px;}
+}
