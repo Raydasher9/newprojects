@@ -6,7 +6,7 @@
 
 
 // a generic delay before calling a function
-function genericDelay(fn, ms) {
+/*function genericDelay(fn, ms) {
    const timer;
    return function() {
       clearTimeout(timer);
@@ -18,4 +18,4 @@ function genericDelay(fn, ms) {
 const element = document.getElementById('content');
 
 // now just wrap your functions with genericDelay() to get delayed execution
-element.onHover = genericDelay(function() {content}, 200);
+element.onHover = genericDelay(function() {content}, 200);*/
