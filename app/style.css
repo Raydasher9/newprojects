@@ -1,24 +1,42 @@
-/** {
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
-    }*/
+
+  .item {
+    display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+    padding: 0px 110px 0px 140px;
+      color: #fff;
+      
+      
+  
+        } 
+
+    video {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        z-index: 4;
+        opacity: 0.3;
+        }
 
 
-        body {
+ 
+       body {
             background-color: #333;
-            filter: invert(75%);
+            
            
-            }
+            } 
 
     
 
     .dropdown button {
-       /* background-color: hsl(0, 0%, 80%);*/
+       
         background-color: white;
-        color: white;
-        padding-right: 30px 30px;
-       /* padding: 15px 30px;*/
+        
+        padding: 0px 30px 0 60px;
+        font-size: 1em;
         
         border: none;
         cursor: pointer;
@@ -30,15 +48,20 @@
         top: 12px;
         right: 0;
         
-       
+       filter: invert(75%);
+        z-index: 7;
          
         
         }
 
     .dropdown button img {
         width: 100%;
-        height: 100%;
-          
+        height: 200%;
+        opacity: 1;
+        color: #fff;
+          filter: invert(75%);
+         z-index: 7;
+         
         
         }
 
@@ -48,7 +71,9 @@
         text-decoration: none;
         padding: 10px 20px 10px 60px;
         margin-right: 4px;
-        
+        filter: invert(75%);
+         z-index: 7;
+         
         
         }
 
@@ -61,98 +86,35 @@
         top: -20px;
         right: 2px;
         margin-top: 20px;
+         filter: invert(75%);
+         z-index: 7;
+        
          
-         /*animation-name: dropdown;
-        animation-duration: 6s;*/
+       
         }
 
     .dropdown:hover .content {
         display: block;
+        filter: invert(75%);
+         z-index: 7;
+         
         
         }
 
     .dropdown:hover button {
             
             background-color: hsl(0, 0%, 70%);
+        filter: invert(75%);
+         z-index: 7;
+         
          
             
         
-        }
+        } 
 
-    .dropdown a:hover {
-        
-            /* background-color: hsl(0, 0%, 90%);*/
-        }
-
-    .header {
-        position: relative;
-        display: flex;
-        flex-direction: row;
-        
-        align-items: center;
-        }
-
-
-
-   /* button {
-        background-color: red;
-        opacity: 0.6;
-        transiton: opacity 1s;
-        }*/
-
-   /* #menu:hover {
-        opacity: 1;
-        }*/
-
-   /* #menu {
-        opacity: 1;
-        }
-
-    .menu {
-        
-        width: 30%;
-        margin-top: 20px;
-        margin-right: 120px;
-        height: 10%;
-        background: blue;
-        position: absolute;
-        right: 0;
-        top: 0;
-        z-index: ;
-        cursor: pointer;
-        opacity: 0.7;
-        
-        }
-
- .footer {   
-        display: flex;
-        flex-direction: column;
-        align-content: center;
-        top: 0;
-        right: 20px;
-        position: absolute;
-        color: red;
-        }
-
-   .header {
-        
-        display: flex;
-        color: blue;
-        justify-content: center;
-        align-content: center;
-        
-        }*/
-
-   
 
   
 
 
 
-
-
-
-
-
-
-
+   
