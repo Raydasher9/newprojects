@@ -1,39 +1,51 @@
 
-  .item {
+  .header {
     display: flex;
   flex-direction: row;
-  justify-content: space-between;
-    padding: 0px 110px 0px 140px;
-      color: #fff;
-      opacity: 1;
+  justify-content: space-around;
+    padding: 40px 160px 0px 0px;
+      color: black;
+      opacity: 0.6;
+      z-index: 2;
+      position: absolute;
+      width: 75%;
+        font-size: 2em;
       
-  
-        } 
+      }
 
-    .item:hover {
-    cursor: pointer;
+ 
+    .header .item {
+        
+        cursor: pointer;
+        
         }
+
+
+
+
+   .header .item:hover {
+       
+        cursor: pointer;
+        color: blue;
+        text-decoration: underline;
+       opacity: 1;
+        }
+
+   
     
 
 
     video {
-        position: absolute;
+       position: absolute;
        top: 0;
         right: 0;
         width: 100%;
         height: 100%;
         object-fit: cover;
-        z-index: 4;
-        opacity: 0.4;
+        z-index: 1;
+        opacity: 0.6;
+        
         }
-
-
- 
-       body {
-            background-color: #333;
-            color: #fff;
-           
-            } 
 
     
 
@@ -52,7 +64,7 @@
         position: fixed;
         top: -65px;
         right: 0px;
-        z-index: 9;
+        z-index: 2;
        color: #fff;
         
          
@@ -63,10 +75,10 @@
         width: 100%;
         height: 150%;
         opacity: 0.8;
-        color: #fff;
+        color: #333;
         padding: 20px 0 0 0;
-        filter: invert(70%);
-         z-index: 10;
+        filter: invert(20%);
+         z-index: 2;
         opacity: 1;
          
         
@@ -78,7 +90,7 @@
         text-decoration: none;
         padding: 25px;
       
-         z-index: 7;
+         z-index: 2;
          
         
         }
@@ -88,34 +100,42 @@
         position: absolute;
         background-color: hsl(0, 0%, 95%);
         min-width: 200px;
-       box-shadow: 2px 2px 5px hsla(0, 0%, 0%, 0.8);
+       box-shadow: 2px 2px 5px hsla(0, 0%, 0%, 0.9);
         top: 20px;
         right: 20px;
         margin-right: 20px;
          
-         z-index: 7;
+         z-index: 2;
         
          
        
         }
 
-    .droptown a:hover {
-            opacity: 0.0;
+    .dropdown:hover {
+        
+        }
+
+    .dropdown a:hover {
+        opacity: 0.5;
+        font-weight: bold;
+        text-decoration: underline;
         }
 
     .dropdown:hover .content {
         display: block;
-        
          z-index: 7;
-         color: #fff;
+         color: #333;
         
         }
 
     .dropdown:hover button {
+        
+        display: none;
             
-       /* background-color: hsl(0, 0%, 70%);*/
+      /* background-color: hsl(0, 0%, 90%);
+        color: transparent;
        
-         z-index: 7;
+         z-index: 7;*/
         
          
          
